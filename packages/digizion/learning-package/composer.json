@@ -1,0 +1,26 @@
+{
+    "name": "digizion/learning-package",
+    "description": "A learning Laravel package example by Digizion.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Digizion",
+            "email": "you@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Digizion\\LearningPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Digizion\\LearningPackage\\LearningPackageServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
